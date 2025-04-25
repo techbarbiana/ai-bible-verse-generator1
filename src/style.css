@@ -1,0 +1,111 @@
+body {
+  background-color: #a36da860;
+}
+
+a {
+  color: #524f5098;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #d680a898;
+  font-family: "Abril Fatface", serif;
+}
+
+.form-container {
+  background-color: #f15da21f;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(138, 93, 132, 0.08);
+  padding: 15px 20px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
+  font-family: "Playfair Display", serif;
+}
+
+.instructions {
+  padding: 16px;
+  border: none;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #272044;
+  font-family: "Questrial", sans-serif;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: #d680a8af;
+  color: white;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+  font-family: "Questrial", sans-serif;
+  cursor: pointer;
+}
+
+.verse {
+  font-size: 14px;
+  background-color: #f15da21f;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #d69ab6;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  font-family: "Questrial", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.verse strong {
+  color: #c2699698;
+  opacity: 0.9;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  font-family: "Questrial", sans-serif;
+  opacity: 0.9;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
