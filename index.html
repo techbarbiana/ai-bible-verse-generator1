@@ -14,10 +14,31 @@
     <title>Scripture Spark – Your AI Verse Companion | Mpho Letsela</title>
 </head>
 <body>
-    
-     <h1>AI Bible Verse Generator – Get Instant Scripture Inspiration</h1>
+      <div class="container">
+      <header>
+        <h1>AI Bible Verse Generator – Get Instant Scripture Inspiration</h1>
+      </header>
 
-  <footer>
+      <main>
+        <div class="form-container">
+          <form id="verse-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a topic or emotion…God has a word for it!"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Hope, Faith or Grace</div>
+        </div>
+        <div class="verse hidden" id="verse"></div>
+      </main>
+
+      <footer>
         This AI project was coded by
         <a href="https://github.com/techbarbiana" target="_blank">Mpho Letsela</a>
         , is
@@ -31,8 +52,8 @@
         <a href="https://mpholetselaaibibleverse1.netlify.app/" target="_blank"
           >hosted on Netlify</a
         >.
-  </footer>
-    
+      </footer>
+    </div>
 
   <script src="src/index.js"></script>  
 </body>
