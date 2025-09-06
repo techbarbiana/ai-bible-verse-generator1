@@ -66,6 +66,19 @@ form {
   transition: box-shadow linear 0.2s, width 500ms ease;
 }
 
+.instructions:focus {
+  outline: none;
+  border-color: rgb(173, 153, 181);
+  box-shadow: 0 0 10px rgb(173, 153, 181);
+  width: 280px;
+}
+
+.instructions:hover {
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+  width: 280px;
+}
+
 .submit-button {
   margin-left: 10px;
   background: #d680a8af;
