@@ -19,7 +19,7 @@ function generateVerse(event) {
 
   let verseElement = document.querySelector("#verse");
   verseElement.classList.remove("hidden");
-  verseElement.innerHTML = `<div class="generating">⏳ Seeking God’s word… ${instructionsInput.value}</div>`;
+  verseElement.innerHTML = `<div class="generating">⏳ Seeking God’s word… " ${instructionsInput.value} "</div>`;
 
   axios.get(apiURL).then(speakLord);
 }
