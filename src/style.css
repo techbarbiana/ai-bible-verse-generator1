@@ -19,11 +19,11 @@ header {
 
 h1 {
   text-align: center;
-  font-weight: 800;
-  font-size: 36px;
+  font-size: 35px;
   line-height: 1.5;
-  color: #d680a898;
-  font-family: "Abril Fatface", serif;
+  color: #dfd3d8;
+  font-family: "Allura", cursive;
+  font-weight: 400;
 }
 
 .form-container {
