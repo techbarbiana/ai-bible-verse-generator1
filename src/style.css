@@ -26,6 +26,13 @@ h1 {
   font-weight: 400;
 }
 
+h6 {
+  text-align: center;
+  font-size: 18px;
+  color: #dfd3d87a;
+  margin-top: -25px;
+}
+
 .form-container {
   background-color: #f15da21f;
   margin-bottom: 30px;
