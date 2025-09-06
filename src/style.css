@@ -60,8 +60,10 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: #272044;
   font-family: "Questrial", sans-serif;
+  background: linear-gradient(to right, #516395, #614385);
+  -webkit-transition: box-shadow linear 0.2s;
+  transition: box-shadow linear 0.2s, width 500ms ease;
 }
 
 .submit-button {
